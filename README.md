@@ -83,7 +83,7 @@ aws-secure-web-server/
 ---
 
 ## 🔒 Security Hardening Implemented  
-- **Firewall Rules**: Only allows SSH (22), HTTP (80), and HTTPS (443)
+- **Firewall Rules**- Only allows SSH (22), HTTP (80), and HTTPS (443)
 - **IAM Role for EC2**: Grants minimal required permissions for security
 - **CloudWatch Monitoring**: Tracks CPU, memory, and disk usage in real time
 - **SSH Hardening**: Disables root login & restricts SSH access to specific IPs
