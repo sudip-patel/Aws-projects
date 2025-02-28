@@ -1,0 +1,19 @@
+{
+  "metrics": {
+    "aggregation_dimensions": [["InstanceId"]],
+    "metrics_collected": {
+      "cpu": {
+        "measurement": ["cpu_usage_idle"],
+        "metrics_collection_interval": 60
+      },
+      "mem": {
+        "measurement": ["mem_used_percent"],
+        "metrics_collection_interval": 60
+      },
+      "disk": {
+        "measurement": ["disk_used_percent"],
+        "metrics_collection_interval": 60
+      }
+    }
+  }
+}

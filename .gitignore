@@ -1,0 +1,22 @@
+# Ignore log files
+logs/*.log
+logs/apache-error.log
+logs/cloudwatch-agent.log
+logs/mysql-error.log
+logs/tomcat-catalina.out
+
+# Ignore SSH key files (VERY IMPORTANT)
+*.pem
+*.key
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore node_modules (if using Node.js)
+node_modules/
+
+# Ignore compiled Python files (if applicable)
+__pycache__/
+*.pyc
+*.pyo
